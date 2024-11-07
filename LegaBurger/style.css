@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    block-size: inherit;
+}
+:root{
+    --titulo: #e95c5c;
+    --primario: #e95c5c;
+    --blanco: #ffffff;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primario);
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--titulo);
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+}
+img.logo{
+    height: 70px;
+    width: 70px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+nav a{
+    text-align: center;
+    width: 90%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+a.link{
+    color: var(--primario);
+    padding: 2px;
+    border: 1px solid var(--primario);
+    border-radius: 5px;
+}
+a.button{
+    background-color: var(--primario);
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+@media (min-width:768px){
+    .logo{
+        margin-left: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        width: auto;
+        flex-basis: 30%;
+        
+    }
+    nav a{
+        width: 100%;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+section.form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    background-color: var(--primario);
+    width: 80%;
+    padding: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+form *{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: none;
+    border: none;
+}
+img.moto{
+    height: 283px;
+    display: block;
+    margin: 0 auto;
+}
+@media (min-width:768px){
+    section.form{
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+    }
+    img.moto{
+        width: 50%;
+        height: auto;
+    }
+    form{
+        margin-top: 20px;
+        background-color: var(--primario);
+        gap: 10px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 20px 5%;
+        
+    }
+}
+.contenedor-ola{
+    width: 100%;
+    height: min-content;
+}
+.contenedor-ola h1{
+    color: white;
+    background-color: #e95c5c;
+    margin: 0;
+    padding: 10px;
+}
+.ola{
+    display: block;
+    margin: 0;
+}
+.contenedor-cajas{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--primario);
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    border-top: #e95c5c solid 1px;
+}
+.caja img{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 200px;
+    display: block;
+}
+.caja p{
+    text-align: center;
+}
+.caja{
+    border: 2px solid #e95c5c;
+    border-radius: 50px;
+    background-color: white;
+    width: 90%;
+}
+@media (min-width:768px){
+    .contenedor-cajas{
+        display: flex;
+        flex-direction: row;
+    }
+    .caja{
+        width: 30%;
+    }
+    .caja img{
+        height: 200px;
+    }
+}
+.contenedor-valoraciones{
+    width: 90%;
+    margin:40px auto;
+    display: grid;
+    grid-template-areas:
+    "carlos carlos carlos juan carla"
+    "pepe pepe fran fran carla"
+    ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,250px);
+    gap: 10px;
+}
+.contenedor-valoraciones img{
+    display: block;
+    border-radius: 500px;
+    width: 100px;
+}
+.valoracion{
+    background-color: rgb(39, 44, 44);
+    padding: 40px;
+    border-radius: 20px;
+}
+.info{
+    display: flex;
+    gap: 50px;
+}
+.carlos{
+    grid-area: carlos;
+}
+.juan{
+    grid-area: juan;
+}
+.carla{
+    grid-area: carla;
+}
+.fran{
+    grid-area: fran;
+}
+.pepe{
+    grid-area: pepe;
+}
+@media (max-width:1200px){
+.contenedor-valoraciones{
+    width: 90%;
+    margin:40px auto;
+    display: grid;
+    grid-template-areas:
+    "carlos"
+    "juan"
+    "pepe"
+    "fran"
+    "carla";
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.contenedor-valoraciones img{
+    display: block;
+    border-radius: 500px;
+    width: 100px;
+}
+.valoracion{
+    background-color: rgb(39, 44, 44);
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+}
+.info{
+    display: flex;
+    gap: 50px;
+}
+}

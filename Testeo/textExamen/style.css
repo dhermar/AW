@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav img{
+    width: 70%;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .nav{
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:nth-child(1){
+    color: rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+header {
+    background-image: url(img/reunion.png);
+    background-size: cover;
+    height: 400px;
+}
+.text{
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text button{
+    width: 33%;
+    padding: 10px 25px;
+}
+form{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 5px;
+}
+form *{
+    text-align: center;
+}
+form button{
+    background-color: brown;
+    color: azure;
+}
+.cont-eventos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.evento img{
+    width: 100%;
+    display: block; 
+}
+.evento{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.evtext{
+    margin: 10px;
+}
+.org img {
+    display: block;
+    border-radius: 700px;
+    width: 30%;
+}
+.org{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.cont-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+.cont-cat img{
+    display: block;
+}
+.box{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
+    background-color: rgb(194, 194, 194);
+}
+section h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+.grupo div{
+    color: aliceblue;
+    padding: 20px;
+    height: 100px;
+}
+.crea{
+    background-color: red;
+}
+.une{
+    background-color: rgb(0, 0, 255);
+
+}
+@media (min-width:768px){
+    body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav img{
+    width: 70%;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .nav{
+    padding: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:nth-child(1){
+    color: rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+header {
+    background-image: url(img/reunion.png);
+    background-size: cover;
+    height: 400px;
+}
+.text{
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text button{
+    width: 33%;
+    padding: 10px 25px;
+}
+form{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 5px;
+}
+form *{
+    text-align: center;
+}
+form button{
+    background-color: brown;
+    color: azure;
+}
+.cont-eventos{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.evento img{
+    width: 100%;
+    display: block; 
+}
+.evento{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.evtext{
+    margin: 10px;
+}
+.org img {
+    display: block;
+    border-radius: 700px;
+    width: 30%;
+}
+.org{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.cont-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+.cont-cat img{
+    display: block;
+}
+.box{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
+    background-color: rgb(194, 194, 194);
+}
+section h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+.grupo div{
+    color: aliceblue;
+    padding: 20px;
+    height: 100px;
+}
+.crea{
+    background-color: red;
+}
+.une{
+    background-color: rgb(0, 0, 255);
+
+}
+}

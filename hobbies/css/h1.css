@@ -1,0 +1,18 @@
+body{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
+header.dtitulo{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: rgb(55, 17, 63);
+    margin: 0 auto ;
+}
+h1.htitulo{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgb(70, 70, 70);
+}

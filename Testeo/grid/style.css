@@ -1,0 +1,41 @@
+div.grid-opiniones{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "juan juan juan itzel rocio"
+    "cynthia cynthia jose jose rocio";
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,250px);
+    gap: 10px;
+    margin: 0 auto;
+}
+div.grid-opiniones div{
+    padding: 2rem;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+#juan{
+    grid-area: juan;
+}
+#itzel{
+    grid-area: itzel;
+}
+#rocio{
+    grid-area: rocio;
+}
+#cynthia{
+    grid-area: cynthia;
+}
+#jose{
+    grid-area: jose;
+}
+@media (max-width: 700px) {
+    div.grid-opiniones{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .grid-opiniones div{
+        height: 250px;
+    }
+}

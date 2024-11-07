@@ -1,0 +1,60 @@
+/* Valores estándar*/
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Lora', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+
+/**/
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+/**/
+div.linear1{
+    background-image: linear-gradient(
+        to right bottom,
+        #ffffff,
+        rgb(0, 255, 0)
+    );
+    width: 100rem;
+    height: 10rem;
+}
+div.linear2{
+    background-image: linear-gradient(
+        to left,
+        #8d0c0c,
+        rgb(255, 251, 0)
+    );
+    width: 100rem;
+    height: 10rem;
+}
+div.angular1{
+    background-image: linear-gradient(
+        35deg,
+        #ffffff,
+        rgb(0, 255, 0)
+    );
+    width: 100rem;
+    height: 10rem;
+}
+div.angular2{
+    background-image: linear-gradient(
+        180deg,
+        #8d0c0c,
+        rgb(255, 251, 0)
+    );
+    width: 100rem;
+    height: 10rem;
+}

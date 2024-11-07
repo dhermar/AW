@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: none;
+}
+header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url(images/header.jpg);
+    height: 400px;
+    background-size: cover;
+}
+header *{
+    color: white;
+}
+header a{
+    color: white;
+}
+h1{
+    margin: 30px 10px;
+}
+#cont-dest{
+    display: flex;
+    flex-direction: column;
+}
+.dest{
+    display: flex;
+    align-items: center;
+
+}
+.dest img{
+    width: 50%;
+}
+.text-dest{
+    margin:0 auto;
+}
+#cont-vive{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.vive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+.vive img{
+    width: 100%;
+    border-radius: 15px;
+}
+.text{
+    align-self: baseline;
+}
+footer{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    padding: 10px 0;
+}
+.col{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.links{
+    background-color: rgb(185, 185, 185);
+    padding: 10px 0;
+}
+@media (min-width:768px){
+    h1{
+        margin: 30px 10px;
+    }
+    #cont-dest{
+        display: flex;
+        flex-direction: row;
+        margin: 0 10px;
+    }
+    .dest{
+        display: flex;
+        align-items: center;
+        width: 25%;
+    
+    }
+    .dest img{
+        width: 50%;
+    }
+    .text-dest{
+        margin:0 auto;
+    }
+    #cont-vive{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 40px;
+        margin: 0 20px 10px;
+    }
+    .vive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .vive img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .text{
+        align-self: baseline;
+    }
+    footer{
+        background-color: rgb(185, 185, 185);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+        padding: 10px 0;
+        justify-content: space-around;
+    }
+    .col{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(88, 88, 88);
+    }
+    nav{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.253);
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav div{
+        display: flex;
+        gap: 10px;
+    }
+}

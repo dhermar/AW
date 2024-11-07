@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="cursos" src="img/cursos.png" alt="">
+    </header>
+    <main>
+        <div class="text">
+            <h1>Curso profesional de marketing</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit quisquam cum quo quis, hic doloremque quidem, exercitationem culpa eos fugiat numquam aliquid enim. Error sit hic aut totam illo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit quisquam cum quo quis, hic doloremque quidem, exercitationem culpa eos fugiat numquam aliquid enim. Error sit hic aut totam illo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit quisquam cum quo quis, hic doloremque quidem, exercitationem culpa eos fugiat numquam aliquid enim. Error sit hic aut totam illo.
+            </p>
+        </div>
+        <div class="flex">
+            <h1>FORMULARIO DE REGISTRO</h1>
+            <form id="form" class="registro" method="post" action="#">
+                <label for="nom">Nombre:</label>
+                <input type="text" name="nom" id="nom" required>
+                <label for="ape">Apellido:</label>    
+                <input type="text" name="ape" id="ape" required>         
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="mail" required>
+                <label for="contra">Contraseña:</label>
+                <input type="password" name="contra" id="contra" required>
+                <label for="contra2">Confirmar Contraseña:</label>
+                <input type="password" name="contra2" id="contra2" required>
+                <label for="pais">Pais:</label>
+                <select required name="pais" id="pais">
+                    <option value="es">España</option>
+                    <option value="fr">Francia</option>
+                    <option value="us">EEUU</option>
+                    <option value="it">Italia</option>
+                    <option value="de">Alemania</option>
+                    <option value="vl">Vallecas</option>
+                    <option value="po">Polonia</option>
+                    <option value="an">Andorra</option>
+                </select>
+                <div class="submits">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Vaciar formulario">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

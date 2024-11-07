@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    width: 25%;
+}
+.nav a:nth-child(1){
+    color: #B8336A;
+    border-bottom: 1px solid #B8336A;
+}
+header{
+    height: 400px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.header *{
+    font-size: larger;
+    color: white;
+}
+.header button{
+    background-color: #FF8015;
+    border: none;
+    padding: 10px 20px;
+    width: 220px;
+}
+.header h1{
+    font-size: 30px;
+}
+.form{
+    padding: 40px 0;
+    background-color: #dddddd;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.form h1{
+    color: #8f8f8f;
+    margin-bottom: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form *{
+    padding: 5px 3px;
+}
+form input:nth-child(4){
+    border: none;
+    border-radius: 0;
+    background-color: #B8336A;
+    padding: 10px;
+}
+.cont-eventos{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.evento{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 
+    2px 2px 5px rgba(0, 0, 0, 0.274),
+    -2px -2px 5px rgba(0, 0, 0, 0.274),
+    2px -2px 5px rgba(0, 0, 0, 0.274),
+    -2px 2px 5px rgba(0, 0, 0, 0.274);
+}
+.evento img{
+    width: 100%;
+    display: block;
+}
+.org img{
+    width: 100px;
+    border-radius: 100%;
+}
+.org{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.evento-text{
+    padding: 20px;
+}
+.cont-cat{
+    background-color: rgb(209, 209, 209);
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cat img{
+    width: 100%;
+    display: block;
+}
+.cat{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.cat-text{
+    padding:15px;
+}
+.titulo{
+    padding: 40px;
+}
+.titulo2{
+    padding: 40px;
+    background-color: rgb(209, 209, 209);
+}
+.titulo h1{
+    text-align: center;
+    color: #484349;
+}
+.grupo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.grupo *{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.crea{
+    background-color:  #B8336A;
+}
+.une{
+    background-color: #068D9D;
+}
+.nav2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+.nav2 a{
+    color: black;
+    text-decoration: none;
+    width: 25%;
+}
+.nav2 a:nth-child(1){
+    color: #B8336A;
+    border-right: 1px solid #B8336A;
+}
+.copy{
+    text-align: center;
+    padding: 30px;
+}
+@media (min-width:768px){
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 5px;
+        width: 60%;
+    }
+    .nav a{
+        color: black;
+        text-decoration: none;
+        width: 100%;
+    }
+    .nav a:nth-child(1){
+        color: #B8336A;
+        border-right: 1px solid #B8336A;
+        border-bottom: none;
+    }
+    header{
+        height: 400px;
+        background-image: url(img/hero.jpg);
+        background-size: cover;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .header *{
+        font-size: larger;
+        color: white;
+    }
+    .header button{
+        background-color: #FF8015;
+        border: none;
+        padding: 10px 20px;
+        width: 220px;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .form{
+        padding: 40px 0;
+        background-color: #dddddd;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    .form h1{
+        color: #8f8f8f;
+        margin-bottom: 15px;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    form *{
+        padding: 5px 3px;
+        width: 25%;
+    }
+    form input:nth-child(4){
+        border: none;
+        border-radius: 0;
+        background-color: #B8336A;
+        padding: 10px;
+    }
+    .cont-eventos{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .evento{
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.274),
+        -2px -2px 5px rgba(0, 0, 0, 0.274),
+        2px -2px 5px rgba(0, 0, 0, 0.274),
+        -2px 2px 5px rgba(0, 0, 0, 0.274);
+    }
+    .evento img{
+        width: 100%;
+        display: block;
+    }
+    .org img{
+        width: 100px;
+        border-radius: 100%;
+    }
+    .org{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+    .evento-text{
+        padding: 20px;
+    }
+    .cont-cat{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cat img{
+        width: 100%;
+        display: block;
+    }
+    .cat{
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .cat-text{
+        padding:15px;
+    }
+    .titulo{
+        padding: 40px;
+    }
+    .titulo h1{
+        text-align: center;
+        color: #484349;
+    }
+    .grupo{
+        display: flex;
+        flex-direction: row;
+    }
+    .grupo *{
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 50%;
+    }
+    .crea{
+        background-color:  #B8336A;
+    }
+    .une{
+        background-color: #068D9D;
+    }
+    .nav2{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin: 20px 0;
+        gap: 20px;
+    }
+    .nav2 a{
+        color: black;
+        text-decoration: none;
+        width: 25%;
+    }
+    .nav2 a:nth-child(1){
+        color: #B8336A;
+        border-right: 1px solid #B8336A;
+    }
+    .copy{
+        text-align: center;
+    }
+}

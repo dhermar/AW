@@ -1,0 +1,29 @@
+a:link, a:visited{
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover , a:active {
+    background-color: rgb(255, 166, 0);
+}
+table , th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: beige;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+}
+td.serv{
+    background-color: rgb(255, 204, 0);
+}
+th{
+    background-color: rgb(255, 255, 193);
+}
+body{
+    background-color: honeydew;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="">Prueba</a>
+        <a href="">Prueba</a>
+        <a href="">Prueba</a>
+        <a href="">Prueba</a>
+        <a href="">Prueba</a>
+        <a href="">Prueba</a>
+    </nav>
+    <main>
+    <div id="tabla">
+        <table>
+            <tr>
+                <td>~</td>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>8:25-9:20</th>
+                <td rowspan="2" class="sist"><a class="tabla" href="index4.html">Sistemas</a></td>
+                <td></td>
+                <td class="serv" rowspan="2"><a class="tabla" href="index3.html">Servicios</a></td>
+                <td class="apli" rowspan="2"><a class="tabla" href="index5.html">Aplicaciones Web</a></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>9:20-10:15</th>
+                <td class="sist" rowspan="2"><a class="tabla" href="index4.html">Sistemas</a></td>
+                <td class="empr" rowspan="2"><a class="tabla" href="index7.html">Empresa</a></td>
+            </tr>
+            <tr>
+                <th>10:15-11:10</th>
+                <td rowspan="2" class="segu"><a class="tabla" href="index2.html">Seguridad</a></td>
+                <td class="sist" rowspan="2"><a class="tabla" href="index4.html">Sistemas</a></td>
+                <td class="serv" rowspan="2"><a class="tabla" href="index3.html">Servicios</a></td>
+            </tr>
+            <tr>
+                <th>11:10-12:05</th>
+                <td class="apli"><a class="tabla" href="index5.html">Aplicaciones Web</a></td>
+                <td class="segu"><a class="tabla" href="index2.html">Seguridad</a></td>
+            </tr>
+            <tr>
+                <td class="patio" colspan="6">Recreo</td>
+            </tr>
+            <tr>
+                <th>12:30-13:25</th>
+                <td class="ingl" rowspan="2"><a class="tabla" href="index6.html">Inglés</a></td>
+                <td class="serv" rowspan="2"><a class="tabla" href="index3.html">Servicios</a></td>
+                <td class="apli" rowspan="2"><a class="tabla" href="index5.html">Aplicaciones Web</a></td>
+                <td class="serv" rowspan="2"><a class="tabla" href="index3.html">Servicios</a></td>
+                <td class="segu"><a class="tabla" href="index2.html">Seguridad</a></td>
+            </tr>
+            <tr>
+                <th>13:25-14:20</th>
+                <td class="sist" rowspan="2"><a class="tabla" href="index4.html">Sistemas</a></td>
+            </tr>
+            <tr>
+                <th>14:20-15:15</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="empr"><a class="tabla" href="index7.html">Empresa</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="form">
+        <form id="form" 
+        class="registro" method="post" action="#">
+            <h1>Inscripción</h1>
+            <label for="nom">Nombre:</label>
+            <input type="text" name="nom" id="nom" required>
+            <label for="ape">Apellido:</label>    
+            <input type="text" name="ape" id="ape" required>         
+            <select required name="pais" id="pais">
+                <option value="es">España</option>
+                <option value="fr">Francia</option>
+                <option value="us">EEUU</option>
+                <option value="it">Italia</option>
+                <option value="de">Alemania</option>
+                <option value="vl">Vallecas</option>
+                <option value="po">Polonia</option>
+                <option value="an">Andorra</option>
+            </select>
+            <div class="submits">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Vaciar formulario">
+            </div>
+        </form>
+    </div>
+    <div class="pez">
+        
+    </div>
+    <div class="pez2">
+
+    </div>
+    </main>
+</body>
+</html>

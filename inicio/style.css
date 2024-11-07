@@ -1,0 +1,97 @@
+h1{
+    color: blueviolet;
+    text-shadow:1px 1px 2px black,
+                2px 2px 1px black;
+    text-align: center;
+}
+h2{
+    color:blue;
+    text-align: right;
+}
+h3{
+    color: green;
+    text-align: center;
+}
+h4{
+    color:lime;
+    text-align: left;
+}
+h5{
+    color: yellowgreen;
+    text-align: center;
+}
+h6{
+    color: yellow;
+    text-align: right;
+}
+ul , ol , dl{
+    color: rgb(212, 0, 255);
+}
+body{
+    background-color: rgb(247, 220, 255);
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+a.bot:link, a.bot:visited{
+    background-color: rgb(212, 0, 255);
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+} 
+a.bot:hover , a.bot:active {
+    background-color: rgb(255, 166, 0);
+}
+a.imagen{
+    margin: auto;
+    padding: unset;
+    text-align: unset;
+    background-color: unset;
+    display: block;
+}
+a.lista{
+    background-color: unset;
+    color: rgb(212, 0, 255);
+    padding: unset;
+    text-align: unset;
+    text-decoration: underline;
+    display: unset;
+}
+a.tabla{
+    color: black;
+}
+table , th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 180, 242);
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+}
+td.serv{
+    background-color: rgb(213, 53, 253);
+}
+th{
+    background-color: rgb(251, 122, 255);
+}
+td.sist{
+    background-color: rgb(53, 253, 236);
+}
+td.segu{
+    background-color: rgb(142, 255, 142);
+}
+td.ingl{
+    background-color: rgb(117, 88, 247);
+}
+td.apli{
+    background-color: rgb(251, 255, 0);
+}
+td.empr{
+    background-color: rgb(253, 53, 53);
+}

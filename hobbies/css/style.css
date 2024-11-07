@@ -1,0 +1,138 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-size: 1.6rem;
+}
+/* Header*/
+header.dtitulo{
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: rgb(55, 17, 63);
+    margin: 0 auto ;
+}
+p.subtitulo{
+    color: white;
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+}
+h1.htitulo{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgb(70, 70, 70);
+}
+/*Flex*/
+div.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+div.d-flex div {
+    width: 50rem;
+}
+
+div.juegos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url(../img/fondo_cruces.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+img.HK{
+    height: 20rem;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 700px;
+    border: 1px dashed white;
+}
+p.juegos{
+    font-size: large;
+}
+
+div.f1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-image: repeating-radial-gradient(black, rgb(62, 0, 90));
+    border-radius: 20px;
+}
+img.f1{
+    height: 15rem;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 700px;
+    border: 1px dashed white;
+}
+
+hr{
+    height: 0.1rem;
+    background-color: rgb(255, 255, 255);
+    border-width: 0;
+    width: 80%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin: 2rem;
+    align-items: flex-start;
+}
+a:link,a:visited,a:active{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a:hover{
+
+    color: rgb(255, 175, 175);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a.bot{
+
+    margin-right: 400px;
+}
+
+footer.footer{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.432);
+    margin-top: 1.5%;
+    height: fit-content;
+    padding: 1px;
+}
+p{
+    color: white;
+}
+form{
+    color: white;
+}
+/*
+p.real{
+    
+}*/

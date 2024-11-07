@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/77/Wle_Calafuria_11.jpg);
+    background-size: cover;
+}
+div.text{
+    justify-content: center;
+    width: 45%;
+    padding: 10px;
+    background-color: aquamarine;
+    margin-left: 10px;
+}
+section{
+    display: flex;
+}
+h1{
+    align-self: center;
+    font-size: 2rem;
+}div.form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: grey;
+    padding: 3rem;
+}
+form.registro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+div.submits{
+    display: flex;
+    gap: 5px;
+}
